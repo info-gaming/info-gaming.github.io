@@ -174,3 +174,47 @@ nav ul li a{
     }
 
 }
+
+@media (max-width: 767px) {
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #24234f;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    .nav_options:hover, .nav_options.active{
+        background: black;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    footer{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        background-color: #031a18;
+        padding: 10px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        height: 40px;
+    }
+
+}
