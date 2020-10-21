@@ -1,0 +1,176 @@
+/*web page*/
+
+html{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+main{
+    padding-bottom: 40px;
+}
+
+/*footer*/
+
+footer{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: #031a18;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+}
+
+footer a{
+    color: #5b6ee2;
+}
+
+footer a:hover{
+    color: #d95070;
+}
+
+/*Content*/
+
+
+.main_title{
+    font-size: 50px;
+    text-align: center;
+    margin: 18px 0;
+}
+
+.accueil_p{
+    font-size: 25px;
+    margin: 10px 20px
+}
+
+.contact_p{
+    font-size: 25px;
+    margin: 30px 100px;
+    line-height: 35px;
+}
+
+.link:hover{
+    color: #d95070;
+}
+
+ul li{
+    font-size: 25px;
+    margin: 10px 20px;
+}
+
+
+/*nav*/
+
+nav{
+    background-color: #42415f;
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+nav .logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.nav_options.active, .nav_options:hover{
+    background: black;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    nav .logo{
+        font-size: 40px;
+        padding: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 858px){
+
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #24234f;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    .nav_options:hover, .nav_options.active{
+        background: black;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    footer{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        background-color: #031a18;
+        padding: 10px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        height: 40px;
+    }
+
+}
