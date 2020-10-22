@@ -46,7 +46,8 @@ footer a:hover{
 
 .accueil_p{
     font-size: 25px;
-    margin: 10px 20px
+    margin: 30px 100px;
+    line-height: 35px;
 }
 
 .contact_p{
@@ -56,12 +57,21 @@ footer a:hover{
 }
 
 .link:hover{
-    color: #d95070;
+    text-decoration: underline;
+    color: #1a0dab;
+}
+
+.link:visited{
+    color: #66009c;
+}
+
+.link{
+    color: rgb(26, 13, 171);
 }
 
 ul li{
     font-size: 25px;
-    margin: 10px 20px;
+    margin: 30px 100px;
 }
 
 
@@ -173,8 +183,14 @@ nav ul li a{
         height: 40px;
     }
 
+    nav .logo{
+        font-size: 30px;
+        padding: 40px;
+    }
+
 }
 
+/*mobile*/
 @media (max-width: 767px) {
     .checkbtn{
         display: block;
@@ -205,6 +221,10 @@ nav ul li a{
         left: 0;
     }
 
+    #check:checked ~ html{
+        position: fixed;
+    }
+
     footer{
         font-size: 18px;
         color: white;
@@ -217,4 +237,26 @@ nav ul li a{
         height: 40px;
     }
 
+    /*content*/
+
+    .accueil_p{
+        font-size: 25px;
+        margin: 15px 30px;
+        line-height: 35px;
+    }
+
+    .contact_p{
+        font-size: 25px;
+        margin: 15px 30px;
+        line-height: 35px;
+    }
+
+    .link:hover{
+        color: #1a0dab;
+    }
+
+    ul li{
+        font-size: 25px;
+        margin: 15px 30px;
+    }
 }
