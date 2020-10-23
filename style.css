@@ -99,7 +99,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 10px
+    margin: 0 10px;
 }
 
 nav ul li a{
@@ -127,7 +127,36 @@ nav ul li a{
 
 #check{
     display: none;
+    position: absolute;
 }
+
+nav ul ul{
+    position: absolute;
+    background-color: #24234f;
+    border-top: 3px solid lightslategray;
+    visibility: hidden;
+}
+
+nav ul ul li{
+    display: list-item;
+    position: relative;
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    border-bottom: 2px solid rgb(3, 3, 56);
+}
+
+nav ul ul li a{
+    color: white;
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+nav ul li:hover > ul{
+    visibility: visible;
+}
+
 
 @media (max-width: 952px){
     nav .logo{
@@ -137,7 +166,6 @@ nav ul li a{
     nav ul li a{
         font-size: 16px;
     }
-
 }
 
 @media (max-width: 858px){
@@ -188,6 +216,44 @@ nav ul li a{
         padding: 40px;
     }
 
+    /*sous menu*/
+
+    nav ul ul{
+        position: relative;
+        display: none;
+        left: 44.5%;
+        top: -40px;
+        height: auto;
+        width: 100%;
+        border-top: none;
+        background-color: transparent;
+        align-items: center;
+    }
+
+    nav ul ul li{
+        display: list-item;
+        position: relative;
+        text-align: center;
+        padding-bottom: 10px;
+        height: 0;
+        width: 115px;
+    }
+
+    nav ul ul li a{
+        display: block;
+        line-height: 50px;
+        background-color: #24234f;
+        border-bottom: 2px solid rgb(3, 3, 56);
+        border-top: 2px solid rgb(3, 3, 56);
+    }
+
+    nav ul ul li a:hover{
+        background-color: black;
+    }
+
+    nav ul li:hover > ul{
+        display: list-item;
+    }
 }
 
 /*mobile*/
@@ -237,6 +303,7 @@ nav ul li a{
         height: 40px;
     }
 
+
     /*content*/
 
     .accueil_p{
@@ -258,5 +325,44 @@ nav ul li a{
     ul li{
         font-size: 25px;
         margin: 15px 30px;
+    }
+
+    /*sous menu*/
+
+    nav ul ul{
+        position: relative;
+        display: none;
+        left: 44.5%;
+        top: -40px;
+        height: auto;
+        width: 100%;
+        border-top: none;
+        background-color: transparent;
+        align-items: center;
+    }
+
+    nav ul ul li{
+        display: list-item;
+        position: relative;
+        text-align: center;
+        padding-bottom: 10px;
+        height: 0;
+        width: 115px;
+    }
+
+    nav ul ul li a{
+        display: block;
+        line-height: 50px;
+        background-color: #24234f;
+        border-bottom: 2px solid rgb(3, 3, 56);
+        border-top: 2px solid rgb(3, 3, 56);
+    }
+
+    nav ul ul li a:hover{
+        background-color: black;
+    }
+
+    nav ul li:hover > ul{
+        display: list-item;
     }
 }
