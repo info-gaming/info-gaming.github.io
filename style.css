@@ -157,6 +157,10 @@ nav ul li:hover > ul{
     visibility: visible;
 }
 
+nav ul ul li a:hover{
+    color: #127cb9;
+}
+
 
 @media (max-width: 952px){
     nav .logo{
