@@ -289,7 +289,7 @@ nav ul ul li a:hover{
     }
 }
 
-/*mobile*/
+/*mobiles + tablettes*/
 @media (max-width: 767px) {
     .checkbtn{
         display: block;
@@ -365,6 +365,59 @@ nav ul ul li a:hover{
     nav ul ul{
         position: relative;
         display: none;
+        left: -57.5%;
+        top: -15px;
+        height: 0;
+        width: 0;
+        border-top: none;
+        background-color: green;
+        align-items: center;
+    }
+
+    nav ul ul li{
+        display: list-item;
+        position: relative;
+        text-align: center;
+        padding-bottom: 10px;
+        height: 0;
+        width: 115px;
+        border: none;
+    }
+
+    nav ul ul li a{
+        font-size: 15px;
+        display: block;
+        line-height: 50px;
+        width: 130px;
+        background-color: #24234f;
+        border-bottom: 2px solid rgb(3, 3, 56);
+        border-top: 2px solid rgb(3, 3, 56);
+        margin-right: 30px;
+
+    }
+
+    nav ul ul li a:hover{
+        background-color: black;
+    }
+
+    nav ul li:hover > ul{
+        display: list-item;
+    }
+
+    nav ul li:hover > nav ul li:nth-child(n+1){
+        color: #24234f;
+    }
+
+}
+
+/*mobiles*/
+@media (max-width: 440px){
+
+    /*sous menu*/
+
+    nav ul ul{
+        position: relative;
+        display: none;
         left: -62%;
         top: -15px;
         height: 0;
@@ -403,4 +456,9 @@ nav ul ul li a:hover{
     nav ul li:hover > ul{
         display: list-item;
     }
+
+    nav ul li:hover > nav ul li:nth-child(n+1){
+        color: #24234f;
+    }
 }
+
