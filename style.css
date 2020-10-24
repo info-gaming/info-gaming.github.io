@@ -349,14 +349,16 @@ nav ul ul li a:hover{
         display: list-item;
         position: relative;
         text-align: center;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
+        padding: 0;
         height: 0;
         width: 115px;
     }
 
     nav ul ul li a{
+        font-size: 15px;
         display: block;
-        line-height: 50px;
+        line-height: 20px;
         background-color: #24234f;
         border-bottom: 2px solid rgb(3, 3, 56);
         border-top: 2px solid rgb(3, 3, 56);
