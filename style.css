@@ -74,6 +74,35 @@ ul li{
     margin: 30px 100px;
 }
 
+.jeu_options{
+    margin-left: 30px;
+    color: #1a0dab;
+}
+
+.jeu_options:hover{
+    color: #8b048b;
+}
+
+cite{
+    font-size: 14px;
+    margin-bottom: none;
+}
+
+cite a{
+    color: #1a0dab; 
+}
+
+cite a:hover{
+    color: #8b048b;
+}
+
+.main_title_fg{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 18px;
+    padding: none;
+}
+
 
 /*nav*/
 
