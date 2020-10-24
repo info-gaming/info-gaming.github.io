@@ -254,12 +254,12 @@ nav ul ul li a:hover{
     nav ul ul{
         position: relative;
         display: none;
-        left: 44.5%;
-        top: -40px;
-        height: auto;
-        width: 100%;
+        left: -54.5%;
+        top: -15px;
+        height: 0;
+        width: 0;
         border-top: none;
-        background-color: transparent;
+        background-color: green;
         align-items: center;
     }
 
@@ -365,12 +365,12 @@ nav ul ul li a:hover{
     nav ul ul{
         position: relative;
         display: none;
-        left: 44.5%;
-        top: -40px;
-        height: auto;
-        width: 100%;
+        left: -59.5%;
+        top: -15px;
+        height: 0;
+        width: 0;
         border-top: none;
-        background-color: transparent;
+        background-color: green;
         align-items: center;
     }
 
@@ -381,15 +381,19 @@ nav ul ul li a:hover{
         padding-bottom: 10px;
         height: 0;
         width: 115px;
+        border: none;
     }
 
     nav ul ul li a{
         font-size: 15px;
         display: block;
         line-height: 50px;
+        width: 130px;
         background-color: #24234f;
         border-bottom: 2px solid rgb(3, 3, 56);
         border-top: 2px solid rgb(3, 3, 56);
+        margin-right: 30px;
+
     }
 
     nav ul ul li a:hover{
@@ -398,6 +402,5 @@ nav ul ul li a:hover{
 
     nav ul li:hover > ul{
         display: list-item;
-        width: 100%;
     }
 }
