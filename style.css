@@ -44,6 +44,12 @@ footer a:hover{
     margin: 18px 0;
 }
 
+.h2{
+    font-size: 35px;
+    margin: 10px 5px;
+    text-decoration: underline;
+}
+
 .accueil_p{
     font-size: 25px;
     margin: 30px 100px;
