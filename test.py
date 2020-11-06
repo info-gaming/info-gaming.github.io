@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+message = """<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
@@ -7,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="icon" type="image/png" href="icon.png">
 </head>
 <body>
 <header>
@@ -36,9 +35,9 @@
     </ul>
 </nav>
 </header>
-<img src="images/FGGameBanner.jpg">
-<cite>Source de <a href="https://www.gladiatorpc.co.uk/assets/img/configurator/68GameBanner.jpg">l'image</a></cite>
 <main>
+<img src="FGGameBanner.jpg">
+<cite>Source de <a href="https://www.gladiatorpc.co.uk/assets/img/configurator/68GameBanner.jpg">l'image</a></cite>
 <h1 class="main_title_fg">Fall Guys - Les maps</h1>
 <h2 class="h2">Course :</h2>
 <p class="accueil_p">
@@ -62,14 +61,15 @@
         <li><strong>• Fête aux blocs :</strong> Évite les murs et reste sur la plateforme !</li>
         <li><strong>• Club des sauts :</strong>SAUTE au-dessus de la poutre rotative et ne tombe pas dans le mucus !</li>
         <li><strong>• Ça roule :</strong> Déplace-toi entre les anneaux rotatifs pour éviter de tomber dans le mucus !</li>
-        
+
     </ul>
 </p>
 </main>
 <footer>
     <p class="footer">Développé par titi. <a href="contact.html">Me contacter</a></p>
-    <p class="footer"><a class="réseaux" href="https://twitter.com/bs_titi">Twitter</a> <a class="réseaux" href="https://github.com/titi1000">GitHub</a> <a class="réseaux" href="https://discord.gg/crHsqeU">Discord</a></p>
 </footer>
 </body>
 
-</html>
+</html>"""
+
+print(message)
