@@ -76,6 +76,10 @@ footer a:hover{
     line-height: 35px;
 }
 
+.mes_reseaux{
+    margin-bottom: 30px;
+}
+
 .mes_reseaux li img{
     height: 40px;
     width: 40px;
@@ -368,12 +372,23 @@ nav ul ul li a:hover{
 /*mobiles + tablettes*/
 @media (max-width: 767px) {
 
+    .mes_reseaux li img{
+        margin-left: 0;
+    }
+
+    .mes_reseaux li:hover > *{
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+    }
+
     .checkbtn{
         display: block;
     }
 
     nav .logo #logo{
         color: white;
+        font-size: 35px;
     }
 
     nav ul{
