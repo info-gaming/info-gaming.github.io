@@ -498,6 +498,10 @@ nav ul ul li a:hover{
 /*mobiles*/
 @media (max-width: 440px){
 
+    nav .logo #logo{
+        padding: 0 15px;
+    }
+
     /*sous menu*/
 
     nav ul ul{
