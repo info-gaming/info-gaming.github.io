@@ -15,6 +15,10 @@ main{
     margin-right: 100px;
 }
 
+img{
+    margin-top: 85px;
+}
+
 /*footer*/
 
 footer{
@@ -70,6 +74,10 @@ footer a:hover{
     line-height: 35px;
 }
 
+.maps_fin{
+    margin-bottom: 70px;
+}
+
 .contact_p{
     font-size: 25px;
     margin: 30px 100px;
@@ -84,6 +92,7 @@ footer a:hover{
     height: 40px;
     width: 40px;
     margin-left: 80px;
+    margin-top: 0;
 }
 
 .mes_reseaux li > *{
@@ -174,13 +183,54 @@ div div p{
     padding-top: 15px;
 }
 
+/*skins*/
+
+.h2-skins{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.skins{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.skins div{
+    font-size: 30px;
+    /*background-color: #d95070;*/
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.skins div div ul{
+    margin-bottom: 15px;
+    margin-top: 15px
+}
+
+.skins div div ul li{
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 10px;
+    text-align: left;
+    margin: 0;
+}
+
+.skins div img{
+    height: auto;
+    margin-top: 0;
+}
+
 /*nav*/
 
 nav{
     background-color: #42415f;
     width: 100%;
     height: 85px;
-    position: relative;
+    position: fixed;
 }
 
 nav .logo #logo{
@@ -327,6 +377,12 @@ nav ul ul li a:hover{
     nav .logo{
         font-size: 30px;
         padding: 40px;
+    }
+
+    /*skins*/
+
+    .skins{
+        flex-direction: column;
     }
 
     /*sous menu*/
@@ -535,7 +591,6 @@ nav ul ul li a:hover{
         border-bottom: 2px solid rgb(3, 3, 56);
         border-top: 2px solid rgb(3, 3, 56);
         margin-right: 30px;
-
     }
 
     nav ul ul li a:hover{
@@ -544,10 +599,6 @@ nav ul ul li a:hover{
 
     nav ul li:hover > ul{
         display: list-item;
-    }
-
-    nav ul li:hover > nav ul li:nth-child(n+1){
-        color: #24234f;
     }
 }
 
