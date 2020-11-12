@@ -432,25 +432,6 @@ nav ul ul li a:hover{
         padding: 40px;
     }
 
-    /*skins*/
-
-    .h2-skins{
-        margin-left: 15px;
-    }
-
-    .skins{
-        flex-direction: column;
-    }
-
-    .skins_p{
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    #scrollToTopBtn{
-        margin-right: 15px;
-    }
-
     /*sous menu*/
 
     nav ul ul{
@@ -616,7 +597,24 @@ nav ul ul li a:hover{
     }
 
     /*skins*/
-    
+
+    .h2-skins{
+        margin-left: 15px;
+    }
+
+    .skins{
+        flex-direction: column;
+    }
+
+    .skins_p{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #scrollToTopBtn{
+        margin-right: 15px;
+    }
+
     .endButton{
         justify-content: center;
     }
